@@ -1,0 +1,27 @@
+name: ImpulseX
+main: ImpulseX\Main
+version: 1.2.0
+api: 5.0.0
+commands:
+  impulsehelp:
+    description: Displays detailed information about the ImpulseX plugin.
+    usage: /impulsehelp
+    permission: impulse.help
+  impulsekbreload:
+    description: Reloads the knockback configuration.
+    usage: /impulsekbreload
+    permission: impulse.settings
+  impulsekbsettings:
+    description: Opens the knockback settings form.
+    usage: /impulsekbsettings
+    permission: impulse.reload
+permissions:
+  impulse.reload:
+    description: Allows reloading of the knockback configuration.
+    default: op
+  impulse.settings:
+    description: Allows opening of the knockback settings form.
+    default: op
+  impulse.help:
+    description: Shows a detailed explanation of the plugin
+    default: op
